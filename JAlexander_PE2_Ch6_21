@@ -1,0 +1,9 @@
+void draw(){
+	int d=80; // This everywhere in a draw
+	if(d>50){
+		int x = 10; //This variable can only be used in an if block
+		line(x,40,x+d,40);
+	}
+	line(0,50,d,50);
+	line(x,60,x+d,60); // error x cant be read outside blaock
+}
